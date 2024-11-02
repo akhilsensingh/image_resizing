@@ -1,0 +1,11 @@
+Project: Image Resizer API Requirements:
+
+Upload Image: Allow users to upload an image file via an API. Accept common formats like JPEG, PNG, GIF. 
+Resize Image: Use a library like Sharp to resize the image based on user input (width, height). Maintain 
+aspect ratio if only one dimension is provided (width or height). Return Resized Image: After resizing, 
+return the resized image for download or display. API Routes: POST /upload: Upload the image and resize 
+it based on provided dimensions. GET /download/:imageId: Download the resized image. Error Handling: Handle 
+invalid file types, large file sizes, and resizing errors. Bonus: Allow users to specify image format (JPEG, PNG) 
+after resizing. Add basic watermarking functionality as an optional feature. This project is small and 
+focuses on essential skills like file upload, image manipulation, and API handling, making it ideal for 
+a one-day task. you can include svg make front end in react js
